@@ -2,8 +2,8 @@ name: CI for Project
 
 on:
   pull_request:
-    - branches: [main]
-    - types: [opened]
+    branches: [main]
+    types: [opened]
 
   workflow_dispatch:
 
