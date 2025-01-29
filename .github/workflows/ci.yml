@@ -2,7 +2,10 @@ name: CI for Project
 
 on:
   pull_request:
-    branches: [main]
+    - branches: [main]
+    - types: [opened]
+
+  workflow_dispatch:
 
 jobs:
   Main_CI:
